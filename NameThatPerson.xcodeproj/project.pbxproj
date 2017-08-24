@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		FD52D3F81F4F084A0075239E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52D3F71F4F084A0075239E /* AppDelegate.swift */; };
-		FD52D3FA1F4F084A0075239E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52D3F91F4F084A0075239E /* ViewController.swift */; };
 		FD52D3FD1F4F084A0075239E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD52D3FB1F4F084A0075239E /* Main.storyboard */; };
 		FD52D3FF1F4F084A0075239E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD52D3FE1F4F084A0075239E /* Assets.xcassets */; };
 		FD52D4021F4F084A0075239E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD52D4001F4F084A0075239E /* LaunchScreen.storyboard */; };
+		FD52D40C1F4F08CA0075239E /* NameGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52D40B1F4F08CA0075239E /* NameGameViewController.swift */; };
+		FD52D40E1F4F09530075239E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52D40D1F4F09530075239E /* Person.swift */; };
+		FD52D4101F4F09600075239E /* NameGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52D40F1F4F09600075239E /* NameGame.swift */; };
+		FD52D4131F4F09AD0075239E /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52D4121F4F09AD0075239E /* NetworkController.swift */; };
+		FD52D4151F4F09C90075239E /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52D4141F4F09C90075239E /* PersonController.swift */; };
+		FD52D4171F4F0A4C0075239E /* NameGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52D4161F4F0A4C0075239E /* NameGameController.swift */; };
+		FD52D41D1F4F3F770075239E /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52D41C1F4F3F770075239E /* PersonTableViewCell.swift */; };
+		FD52D4201F4F49400075239E /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52D41F1F4F49400075239E /* ImageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD52D3F41F4F084A0075239E /* NameThatPerson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NameThatPerson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD52D3F71F4F084A0075239E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD52D3F91F4F084A0075239E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD52D3FC1F4F084A0075239E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD52D3FE1F4F084A0075239E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD52D4011F4F084A0075239E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD52D4031F4F084A0075239E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD52D40B1F4F08CA0075239E /* NameGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NameGameViewController.swift; path = ../NameGameViewController.swift; sourceTree = "<group>"; };
+		FD52D40D1F4F09530075239E /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		FD52D40F1F4F09600075239E /* NameGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameGame.swift; sourceTree = "<group>"; };
+		FD52D4121F4F09AD0075239E /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		FD52D4141F4F09C90075239E /* PersonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
+		FD52D4161F4F0A4C0075239E /* NameGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameGameController.swift; sourceTree = "<group>"; };
+		FD52D41C1F4F3F770075239E /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		FD52D41F1F4F49400075239E /* ImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,37 @@
 		FD52D3F61F4F084A0075239E /* NameThatPerson */ = {
 			isa = PBXGroup;
 			children = (
-				FD52D3F71F4F084A0075239E /* AppDelegate.swift */,
-				FD52D3F91F4F084A0075239E /* ViewController.swift */,
-				FD52D3FB1F4F084A0075239E /* Main.storyboard */,
+				FD52D4111F4F09660075239E /* Model */,
+				FD52D4141F4F09C90075239E /* PersonController.swift */,
+				FD52D4161F4F0A4C0075239E /* NameGameController.swift */,
+				FD52D40B1F4F08CA0075239E /* NameGameViewController.swift */,
+				FD52D41C1F4F3F770075239E /* PersonTableViewCell.swift */,
+				FD52D41E1F4F3FAB0075239E /* URL Handlers */,
 				FD52D3FE1F4F084A0075239E /* Assets.xcassets */,
 				FD52D4001F4F084A0075239E /* LaunchScreen.storyboard */,
+				FD52D3FB1F4F084A0075239E /* Main.storyboard */,
 				FD52D4031F4F084A0075239E /* Info.plist */,
+				FD52D3F71F4F084A0075239E /* AppDelegate.swift */,
 			);
 			path = NameThatPerson;
+			sourceTree = "<group>";
+		};
+		FD52D4111F4F09660075239E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD52D40D1F4F09530075239E /* Person.swift */,
+				FD52D40F1F4F09600075239E /* NameGame.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FD52D41E1F4F3FAB0075239E /* URL Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				FD52D4121F4F09AD0075239E /* NetworkController.swift */,
+				FD52D41F1F4F49400075239E /* ImageController.swift */,
+			);
+			name = "URL Handlers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD52D3FA1F4F084A0075239E /* ViewController.swift in Sources */,
+				FD52D4131F4F09AD0075239E /* NetworkController.swift in Sources */,
+				FD52D4101F4F09600075239E /* NameGame.swift in Sources */,
+				FD52D40E1F4F09530075239E /* Person.swift in Sources */,
+				FD52D41D1F4F3F770075239E /* PersonTableViewCell.swift in Sources */,
+				FD52D4171F4F0A4C0075239E /* NameGameController.swift in Sources */,
+				FD52D4201F4F49400075239E /* ImageController.swift in Sources */,
 				FD52D3F81F4F084A0075239E /* AppDelegate.swift in Sources */,
+				FD52D4151F4F09C90075239E /* PersonController.swift in Sources */,
+				FD52D40C1F4F08CA0075239E /* NameGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +346,7 @@
 				FD52D4081F4F084A0075239E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
