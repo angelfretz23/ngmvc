@@ -26,13 +26,6 @@ struct Person {
         return ("\(firstName) \(lastName)")
     }
     
-    
-    var image: UIImage {
-        return imageData()
-    }
-    
-    
-    
     init?(dictionary: [String:Any]) {
         guard let firstName = dictionary[Person.firstNameKey] as? String,
             let lastName = dictionary[Person.lastNameKey] as? String,
@@ -45,16 +38,17 @@ struct Person {
         self.imageURL = String(format: "http:%@", imageURL)
     }
     
-    
-    
-    func imageData() -> UIImage {
-        var photo = UIImage()
-        ImageController.image(forURL: self.imageURL) { (image) in
-            guard let image = image else { return }
-            photo = image
-        }
-        return photo
-    }
+//    
+//    
+//    func imageData() -> UIImage {
+//        var photo = UIImage()
+//        print(imageURL)
+//        ImageController.image(forURL: imageURL) { (image) in
+//            guard let image = image else { return }
+//            photo = image
+//        }
+//        return photo
+//    }
 }
 
 

@@ -28,6 +28,7 @@ class NameGameViewController: UIViewController {
         }
         tableView.dataSource = self
         tableView.delegate = self
+        tableView.register(PersonTableViewCell.self, forCellReuseIdentifier: "pictureCell")
     }
     
     
@@ -51,9 +52,7 @@ extension NameGameViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "pictureCell", for: indexPath) as? PersonTableViewCell
         guard let person = answers?[indexPath.row] else { return UITableViewCell() }
-        let image = person.image
-        cell?.photo.image = image
-        cell?.update(person: person)
+        cell?.updateWith(person: person)
         return cell ?? UITableViewCell()
     }
 }
