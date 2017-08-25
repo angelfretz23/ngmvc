@@ -37,18 +37,6 @@ struct Person {
         self.lastName = lastName
         self.imageURL = String(format: "http:%@", imageURL)
     }
-    
-//    
-//    
-//    func imageData() -> UIImage {
-//        var photo = UIImage()
-//        print(imageURL)
-//        ImageController.image(forURL: imageURL) { (image) in
-//            guard let image = image else { return }
-//            photo = image
-//        }
-//        return photo
-//    }
 }
 
 
